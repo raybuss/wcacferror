@@ -1,11 +1,47 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Error Landing Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Error</title>
+<style>
+.container {
+	font-family: Calibri, sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	text-align: center;
+	border-collapse: separate;
+	border: 1px solid #D7D7D7;
+	border-radius: 2px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+	max-width: 713px;
+	width: 100%;
+	margin: 0px auto;
+	display: block;
+	margin-top: 30px;
+}
+.container .messageHeading {
+	background: #4A90E2;
+	color: #FFF;
+	padding: 14px 0px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.container .messageText {
+	padding: 20px;
+	font-size: 14px;
+	color: #484848;
+}
+</style>
 </head>
-	
+
 <body>
-	::CLOUDFLARE_ERROR_500S_BOX::
+<div class="container">
+  <div class="messageHeading">Page Error</div>
+  <div class="messageText">::CLOUDFLARE_ERROR_500S_BOX::</div>
+	<div class="messageText">You can copy and past the error above and send an email to</div>
+	<div class="messageText">support@alegeus.com</div>
+</div>
 </body>
 </html>
